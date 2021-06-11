@@ -1,0 +1,82 @@
+html, body {
+  font-size: 18px;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #444;
+}
+
+.header{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: #000;
+}
+
+.hh {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #05A;
+}
+
+.jumbotron {
+    background-color:transparent !important;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+.pubt {
+  font-size: 22px;
+  font-weight:400;
+  color: #000;
+}
+@media (max-width: 768px) {
+  .pubt {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .pubd {
+    text-align: justify;
+  }
+}
+.pubd {  
+  font-size: 18px;
+  font-weight: 300;
+}
+.pubimg {
+  text-align: center;
+}
+.pubimg img {
+  max-width: 100%;
+}
+.puba {
+  font-size: 16px;
+  color: #900;
+}
+.pubv {
+  color: #090;
+  font-size: 16px;
+}
+.publ {
+  padding-top: 10px;
+  margin-left:  -40px;
+  text-align: left;
+  
+}
+.publ li {
+  border: 1px solid #CCC;
+  padding: 5px;
+  margin: 5px 2px;
+  display: inline-block;
+}
+.pubwrap {
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #DDD;
+}
+.pub {
+}

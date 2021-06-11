@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="jquery-2.2.4.min.js"></script>
+  <script src="jcanvas.min.js"></script>
+  <script src="graph.js"></script>
+</head>
+
+<body>
+
+<input type="text" id="to_load">
+<button onclick="$.getJSON($('#to_load').val(), function(data) {  
+  graph.parse(data);
+  graph.draw($('canvas'));
+});">Load JSON</button>
+<button onclick="$.getJSON('cv_gurkirt.json', function(data) {  
+  graph.parse(data);}); $.getJSON('cv_Hanan.json', function(data) {  
+  graph.parse(data);}); $.getJSON('cv_katja.json', function(data) {  
+  graph.parse(data);}); $.getJSON('cv_phuong.json', function(data) {  
+  graph.parse(data);}); $.getJSON('cv_titus.json', function(data) {  
+  graph.parse(data);}); $.getJSON('cv_zichao.json', function(data) {  
+  graph.parse(data); graph.draw($('canvas'));});">Load CV JSON</button>
+<button onclick="graph.consolidate($('canvas'));">Consolidate</button>
+<button onclick="graph.prune($('canvas'));">Prune</button>
+<span id="paper"></span>
+<br>
+
+<div width="3000" height="700" style="width:3000px; height:700px; overeflow:scroll; display:block;">
+<canvas width="3000" height="3000" style="background-color: black;"></canvas>
+</div>
+
+<div id="test"></div>
+
+<script>
+var graph = new Graph();
+</script>
+
+</body>
+</html> 

@@ -1,0 +1,53 @@
+{
+"ballard1999introduction":[
+	"richards1988natural"
+	],
+"doel1996synthesis":[
+	"airey1990towards",
+	"depalle1990synthese",
+	"fox1967approximations",
+	"gaver1993synthesizing",
+	"gaver1993what",
+	"johnson1987numerical",
+	"krotkov1995robotic",
+	"takala1992sound",
+	"doel1996sounds",
+	"richards1988natural"
+],
+"richmonds1998active":[
+	"richards1988natural",
+	"chaigne1997numerical",
+	"gaver1993synthesizing",
+	"karjalainen1996body",
+	"klatzky1999perception",
+	"krotkov1996robotic",
+	"morse1939behavier"
+],
+"doel2013sound":[
+	"richards1988natural",
+	"gaver1993synthesizing",
+	"cytowic2002union",
+	"doel2003jass",
+	"meijer1992experimental",
+	"meijer2003voice",
+	"armel1999acquired",
+	"kay1999ctfm",
+	"colwell1998use",
+	"sjoestroem2001designing",
+	"fritz1996haptic",
+	"ramloll2000constructing",
+	"mcgee2001feeling",
+	"shepard1964circularity",
+	"snodgrass1985human",
+	"krotkov1995robotic",
+	"klatzky2000hearing",
+	"doel2002measurement",
+	"doel2001jass"
+],
+
+"kertesz1992dynamically":[
+	"richards1988natural",
+	"pratt1978digital",
+	"rumelhart1986parallel"
+]
+}
